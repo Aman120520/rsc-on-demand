@@ -61,7 +61,6 @@ const LoadingScreen = () => {
       if (!userStatus && rootSegments !== "(auth)") {
         router.replace("/(auth)/login");
       } else if (userStatus && rootSegments !== "(app)") {
-        // router.replace("/(app)/home");
         router.replace("/(app)/(tabs)/home");
       }
     };

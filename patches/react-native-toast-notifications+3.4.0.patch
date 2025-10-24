@@ -1,0 +1,75 @@
+diff --git a/node_modules/react-native-toast-notifications/lib/commonjs/toast-container.js b/node_modules/react-native-toast-notifications/lib/commonjs/toast-container.js
+index 7cee41e..3d69609 100644
+--- a/node_modules/react-native-toast-notifications/lib/commonjs/toast-container.js
++++ b/node_modules/react-native-toast-notifications/lib/commonjs/toast-container.js
+@@ -9,6 +9,8 @@ var _react = _interopRequireWildcard(require("react"));
+ 
+ var _reactNative = require("react-native");
+ 
++var _reactNativeSafeAreaContext = require("react-native-safe-area-context");
++
+ var _toast = _interopRequireDefault(require("./toast"));
+ 
+ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+@@ -108,7 +110,7 @@ class ToastContainer extends _react.Component {
+       behavior: _reactNative.Platform.OS === "ios" ? "position" : undefined,
+       style: [styles.container, style],
+       pointerEvents: "box-none"
+-    }, /*#__PURE__*/_react.default.createElement(_reactNative.SafeAreaView, null, toasts.filter(t => !t.placement || t.placement === "bottom").map(toast => /*#__PURE__*/_react.default.createElement(_toast.default, _extends({
++    }, /*#__PURE__*/_react.default.createElement(_reactNativeSafeAreaContext.SafeAreaView, null, toasts.filter(t => !t.placement || t.placement === "bottom").map(toast => /*#__PURE__*/_react.default.createElement(_toast.default, _extends({
+       key: toast.id
+     }, toast)))));
+   }
+@@ -131,7 +133,7 @@ class ToastContainer extends _react.Component {
+       behavior: _reactNative.Platform.OS === "ios" ? "position" : undefined,
+       style: [styles.container, style],
+       pointerEvents: "box-none"
+-    }, /*#__PURE__*/_react.default.createElement(_reactNative.SafeAreaView, null, toasts.filter(t => t.placement === "top").map(toast => /*#__PURE__*/_react.default.createElement(_toast.default, _extends({
++    }, /*#__PURE__*/_react.default.createElement(_reactNativeSafeAreaContext.SafeAreaView, null, toasts.filter(t => t.placement === "top").map(toast => /*#__PURE__*/_react.default.createElement(_toast.default, _extends({
+       key: toast.id
+     }, toast)))));
+   }
+diff --git a/node_modules/react-native-toast-notifications/lib/module/toast-container.js b/node_modules/react-native-toast-notifications/lib/module/toast-container.js
+index 664e57f..f19c047 100644
+--- a/node_modules/react-native-toast-notifications/lib/module/toast-container.js
++++ b/node_modules/react-native-toast-notifications/lib/module/toast-container.js
+@@ -3,7 +3,8 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
+ function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+ 
+ import React, { Component } from "react";
+-import { StyleSheet, KeyboardAvoidingView, Platform, Dimensions, SafeAreaView } from "react-native";
++import { StyleSheet, KeyboardAvoidingView, Platform, Dimensions } from "react-native";
++import { SafeAreaView } from "react-native-safe-area-context";
+ import Toast from "./toast";
+ const {
+   height,
+@@ -42,7 +43,8 @@ class ToastContainer extends Component {
+ 
+     _defineProperty(this, "update", (id, message, toastOptions) => {
+       this.setState({
+-        toasts: this.state.toasts.map(toast => toast.id === id ? { ...toast,
++        toasts: this.state.toasts.map(toast => toast.id === id ? {
++          ...toast,
+           message,
+           ...toastOptions
+         } : toast)
+@@ -51,7 +53,8 @@ class ToastContainer extends Component {
+ 
+     _defineProperty(this, "hide", id => {
+       this.setState({
+-        toasts: this.state.toasts.map(t => t.id === id ? { ...t,
++        toasts: this.state.toasts.map(t => t.id === id ? {
++          ...t,
+           open: false
+         } : t)
+       });
+@@ -59,7 +62,8 @@ class ToastContainer extends Component {
+ 
+     _defineProperty(this, "hideAll", () => {
+       this.setState({
+-        toasts: this.state.toasts.map(t => ({ ...t,
++        toasts: this.state.toasts.map(t => ({
++          ...t,
+           open: false
+         }))
+       });

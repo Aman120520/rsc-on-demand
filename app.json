@@ -5,7 +5,9 @@
     "version": "15.0.3",
     "orientation": "portrait",
     "icon": "./src/assets/default-logo.png",
-    "scheme": "QDCDemo",
+    "scheme": [
+      "QDCDemo"
+    ],
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./src/assets/splash-screen.png",
@@ -162,7 +164,8 @@
             "googleServicesFile": "./GoogleService-Info.plist"
           }
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
