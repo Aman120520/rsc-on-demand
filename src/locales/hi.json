@@ -1,0 +1,478 @@
+{
+  "common": {
+    "back": "वापस",
+    "go_back": "वापस जाएं",
+    "update": "अपडेट करें",
+    "confirm": "पुष्टि करें",
+    "delivery": "डिलीवरी",
+    "Delivered": "डिलीवर",
+    "change": "बदलें",
+    "continue": "जारी रखें",
+    "time": "समय",
+    "select": "चुनें",
+    "add": "जोड़ें",
+    "choose": "चुनें",
+    "date_and_time": "तारीख और समय",
+    "express_delivery": "एक्सप्रेस डिलीवरी",
+    "contact": "संपर्क करें",
+    "next": "अगला",
+    "address": "पता",
+    "special_instructions": "सेवाओं के लिए विशेष निर्देश",
+    "skip": "छोड़ें",
+    "done": "हो गया",
+    "call": "कॉल करें",
+    "send": " भेजें",
+    "pickup": "पिकअप",
+    "drop_offs": "ड्रॉप ऑफ्स",
+    "contact_us": "हमसे संपर्क करें",
+    "search": "खोजें",
+    "save": "बचाएं",
+    "on_this_code": "इस कोड पर",
+    "price": "कीमत:",
+    "reschedule": "पुनर्निर्धारित करें",
+    "apply": "लागू करें",
+    "validity": "वैधता:",
+    "off": "छूट",
+    "flat_off": "निश्चित छूट",
+    "close": "बंद करें",
+    "open_settings": "सेटिंग्स खोलें",
+    "unlimited": "असीमित",
+    "amount": "राशि",
+    "no": "नहीं",
+    "yes": "हाँ",
+    "ok": "ठीक है",
+    "total": "कुल",
+    "id": "आईडी",
+    "pending": "लंबित",
+    "due": "बकाया",
+    "ready": "तैयार",
+    "orders": "ऑर्डर",
+    "powered_by": "द्वारा संचालित",
+    "version": "संस्करण",
+    "package_not_found": "पैकेज नहीं मिला",
+    "no_records": "कोई रिकॉर्ड नहीं मिला",
+    "select_an_item": "एक आइटम चुनें",
+    "available_coupons": "उपलब्ध कूपन",
+    "no_available_coupons": "कोई उपलब्ध कूपन नहीं",
+    "payment_coupons": "भुगतान कूपन",
+    "cancel_request": "अनुरोध रद्द करें",
+    "cancel_reasons_changed_mind": "मैंने अपना मन बदल लिया",
+    "cancel_reasons_date_passed": "पिकअप की तारीख पहले ही बीत गई",
+    "cancel_reasons_just_checking": "मैं बस जांच कर रहा था",
+    "cancel_reasons_do_later": "बाद में करूंगा",
+    "pickups": "पिकअप",
+    "coupon": "कूपन",
+    "pickup_and_delivery_details": "पिकअप और डिलीवरी विवरण",
+    "are_you_sure_you_want_to_remove_the_coupon": "क्या आप वाकई कूपन हटाना चाहते हैं"
+  },
+  "restart_required_title": "पुनः आरंभ आवश्यक",
+  "restart_required_message": "आपकी भाषा पसंद लागू करने के लिए हमें ऐप को पुनः आरंभ करना होगा।",
+  "restart_button": "अभी पुनः आरंभ करें",
+  "cancel_button": "रद्द करें",
+  "cancel_reasons": {
+    "changed_mind": "मैंने अपना मन बदल लिया",
+    "date_passed": "पिकअप की तारीख पहले ही बीत गई",
+    "just_checking": "मैं बस जांच कर रहा था",
+    "do_later": "बाद में करूंगा"
+  },
+  "calendar": {
+    "choose_date": "पिकअप की तारीख यहाँ स्लाइड करके चुनें।",
+    "select_tiimeslot": "नियमित डिलीवरी के लिए पिकअप के लिए यहां पसंदीदा समय स्लॉट चुनें।",
+    "days": {
+      "monday": "सोम",
+      "tuesday": "मंगल",
+      "wednesday": "बुध",
+      "thursday": "गुरु",
+      "friday": "शुक्र",
+      "saturday": "शनि",
+      "sunday": "रवि"
+    },
+    "full_days": {
+      "monday": "सोमवार",
+      "tuesday": "मंगलवार",
+      "wednesday": "बुधवार",
+      "thursday": "गुरुवार",
+      "friday": "शुक्रवार",
+      "saturday": "शनिवार",
+      "sunday": "रविवार"
+    },
+    "months": {
+      "january": "जनवरी",
+      "february": "फरवरी",
+      "march": "मार्च",
+      "april": "अप्रैल",
+      "may": "मई",
+      "june": "जून",
+      "july": "जुलाई",
+      "august": "अगस्त",
+      "september": "सितंबर",
+      "october": "अक्टूबर",
+      "november": "नवंबर",
+      "december": "दिसंबर"
+    },
+    "time": {
+      "am": "पूर्वाह्न",
+      "pm": "अपराह्न"
+    },
+    "express_delivery": {
+      "next_day_50_extra": "अगले दिन 50% अतिरिक्त",
+      "same_day_100_extra": "उसी दिन 100% अतिरिक्त"
+    },
+    "express_delivery_options": "यदि उपलब्ध है, तो तत्काल डिलीवरी के लिए इन विकल्पों को चुनें।",
+    "schedule_pickup": "पिकअप शेड्यूल करें"
+  },
+  "date_formatting": {
+    "months": {
+      "Jan": "जनवरी",
+      "Feb": "फरवरी",
+      "Mar": "मार्च",
+      "Apr": "अप्रैल",
+      "May": "मई",
+      "Jun": "जून",
+      "Jul": "जुलाई",
+      "Aug": "अगस्त",
+      "Sep": "सितंबर",
+      "Oct": "अक्टूबर",
+      "Nov": "नवंबर",
+      "Dec": "दिसंबर"
+    }
+  },
+  "pending": {
+    "pending_order": "आपके पास कोई लंबित आदेश नहीं है।",
+    "pending_notification": "आपके पास कोई लंबित सूचनाएं नहीं हैं।"
+  },
+  "auth": {
+    "login_required": "लॉगिन आवश्यक है",
+    "login_msg": "आपको जारी रखने के लिए लॉगिन या खाता बनाना होगा।",
+    "enter_mobile": "कृपया अपना मोबाइल नंबर दर्ज करें",
+    "continue": "जारी रखें",
+    "submit": "सबमिट करें",
+    "enter_name": "कृपया अपना नाम दर्ज करें",
+    "enter_email": "कृपया अपना ईमेल दर्ज करें",
+    "enter_valid_email": "कृपया एक मान्य ईमेल दर्ज करें",
+    "invalid_referal": "अमान्य रेफरल कोड.",
+    "no_service_at_this_location": "इस स्थान पर सेवा उपलब्ध नहीं है",
+    "not_enter_spcific_char": "कृपया अपने नाम में कोई विशेष वर्ण न डालें ",
+    "get_otp_on_call": "कॉल पर ओटीपी प्राप्त करें",
+    "registration": {
+      "placeholder_name": "नाम",
+      "placeholder_email": "ईमेल"
+    },
+    "address": {
+      "pickup_address": "पिकअप पता",
+      "update_location": "स्थान अपडेट करें",
+      "placeholders": {
+        "house_flat_block": "घर / फ्लैट / ब्लॉक / बिल्डिंग",
+        "street_landmark": "गली, सोसाइटी या लैंडमार्क",
+        "search_area": "क्षेत्र, गली का नाम खोजें..."
+      }
+    }
+  },
+  "onboarding": {
+    "next": "अगला",
+    "skip": "छोड़ें",
+    "done": "हो गया",
+    "continue": "जारी रखें",
+    "previous": "पिछला",
+    "finish": "समाप्त"
+  },
+  "loading": {
+    "powered_by": "द्वारा संचालित",
+    "qdc": "क्विक ड्राई क्लीनिंग सॉफ्टवेयर"
+  },
+  "home": {
+    "select_service": "एक सेवा चुनें",
+    "laundry_service": "धोबी सेवा",
+    "selected_service": "चयनित सेवा",
+    "select_service_get_estimate": "एक सेवा चुनें और अनुमान प्राप्त करें",
+    "choose_pickup_select": "पिकअप का समय चुनें, सेवा चुनें और आराम करें",
+    "service_and_relax": "यह इतना आसान है।",
+    "schedule_pickup": "पिकअप शेड्यूल करें",
+    "schedule_dropoff": "ड्रॉपऑफ शेड्यूल करें",
+    "choose_services_pickup_relax": "सेवाएं, पिकअप का समय चुनें और आराम करें",
+    "its_that_simple": "यह इतना आसान है।",
+    "estimated_price": "अनुमानित मूल्य",
+    "price_per_kg": "प्रति किलो कीमत",
+    "price_per_item": "प्रति आइटम कीमत",
+    "save_prepaid_packs": "हमारे प्रीपेड पैक के साथ बचत करें!",
+    "pickup_one_service": "कृपया कम से कम एक सेवा चुनें",
+    "select_pickup_date_time": "कृपया पिकअप की तारीख और समय चुनें",
+    "select_reason": "कृपया एक कारण चुनें",
+    "request_cancel": "अनुरोध सफलतापूर्वक रद्द कर दिया गया।"
+  },
+  "coupon": {
+    "enter_coupon_code": "कूपन कोड दर्ज करें",
+    "remove_coupon": "कूपन हटाएं",
+    "discount": "छूट:"
+  },
+  "gift_card": {
+    "enter_coupon_code": "कूपन कोड दर्ज करें"
+  },
+  "pricelist": {
+    "title": "मूल्य सूची",
+    "search": "खोजें",
+    "per_kg": "प्रति किलो"
+  },
+  "orders": {
+    "order_details": "ऑर्डर विवरण",
+    "order_summary": "ऑर्डर सारांश",
+    "tax": "कर",
+    "total_amount": "कुल राशि",
+    "sub_total": "उप-कुल",
+    "apply_coupon": "कूपन लागू करें",
+    "delivered": "डिलीवर",
+    "no_orders": "कोई ऑर्डर नहीं मिला",
+    "pay_now": "अभी भुगतान करें",
+    "orders": "ऑर्डर",
+    "processing": "प्रक्रिया",
+    "due": "बकाया",
+    "ready": "तैयार",
+    "details": {
+      "id": "आईडी",
+      "amount": "राशि",
+      "total": "कुल",
+      "due": "बकाया",
+      "pending": "लंबित"
+    }
+  },
+  "order_status": {
+    "INPROCESS": "प्रक्रिया में",
+    "READY": "तैयार",
+    "DELIVERED": "डिलीवर",
+    "PENDING": "लंबित",
+    "PROCESSING": "प्रक्रिया में",
+    "RECEIVED": "प्राप्त",
+    "CANCELLED": "रद्द",
+    "COMPLETED": "पूर्ण",
+    "UNPROCESSED": "अप्रसंस्करण",
+    "RETURNED - PRICE ISSUE": "वापस - मूल्य समस्या"
+  },
+  "profile": {
+    "my_profile": "मेरी प्रोफाइल",
+    "back": "वापस",
+    "update": "अपडेट करें",
+    "update_email": "ईमेल अपडेट करें",
+    "update_email_msg": "ईमेल आईडी अपडेट करने के लिए, कृपया इस नंबर पर कॉल करें "
+  },
+  "contact_us": {
+    "placeholder_message": "प्रिय ग्राहक, हम आपकी प्रतिक्रिया और सुझावों को महत्व देते हैं। किसी भी प्रश्न, शिकायत या प्रतिक्रिया के लिए, कृपया हमें लिखें और हम आपसे जल्द ही संपर्क करेंगे।",
+    "enter_concern": "कृपया अपने परेशानियों को दर्ज करें।",
+    "enter_concern_type": "कृपया अपने परेशानियों का प्रकार दर्ज करें।",
+    "feedback_submitted": "प्रतिक्रिया सबमिट कर दिया गया।",
+    "mobile_number_not_found": "मोबाइल नंबर नहीं मिला।",
+    "feedback_reasons": {
+      "Query": "प्रश्न",
+      "Feedback": "प्रतिक्रिया",
+      "Complaints": "शिकायतें",
+      "CustomerComplaint": "ग्राहक शिकायत"
+    }
+  },
+  "location": {
+    "regular_location_msg": "अरे! यह आपका नियमित स्थान नहीं है!",
+    "update_location_msg": "आपका वर्तमान स्थान आपके सहेजे गए पते से भिन्न है। क्या आप अपना पिकअप पता अपडेट करना चाहेंगे?",
+    "yes_update": "हाँ, मेरा स्थान अपडेट करें",
+    "no_pickup_from_saved": "नहीं, केवल मेरे सहेजे गए पते से पिकअप करें।"
+  },
+  "schedule": {
+    "calendar": {
+      "day_short_format": "दिन",
+      "date_format": "दिनांक"
+    },
+    "location_permission": "स्थान अनुमति",
+    "location_permission_msg": "  को आपके स्थान तक पहुंच की आवश्यकता है। अन्यथा कुछ सुविधाएँ ठीक से काम नहीं कर सकती हैं।",
+    "cancel_reason": "क्या आप कृपया हमें रद्द करने का कारण बता सकते हैं?",
+    "minimum_order_value": "पिकअप के लिए न्यूनतम ऑर्डर मूल्य",
+    "no_service_found": "कोई सक्रिय सेवा नहीं मिली",
+    "no_review": "नहीं, मैं अपने कपड़ों की समीक्षा करूंगा",
+    "yes_continue": "हाँ, जारी रखें",
+    "keep_ready": "कृपया अपने आइटम तैयार रखें!",
+    "expert_coming": "हमारा लॉन्ड्री / ड्राईक्लीन विशेषज्ञ जल्द ही आपके पास होगा!"
+  },
+  "header": {
+    "title": "",
+    "notification_count": ""
+  },
+  "home_slider": {
+    "service_name": ""
+  },
+  "settings": {
+    "language": "भाषा"
+  },
+  "otp": {
+    "enter_otp": "कृपया ओटीपी दर्ज करें",
+    "otp_sent": "आपके मोबाइल नंबर और ईमेल पर ओटीपी भेजा गया है",
+    "resend_otp": "ओटीपी पुनः भेजें",
+    "resend_timer": "{{count}} सेकंड में",
+    "submit": "सबमिट करें",
+    "get_otp_call": "कॉल पर ओटीपी प्राप्त करें"
+  },
+  "terms": {
+    "terms": " शर्तें",
+    "accept_proceed": "स्वीकार करें और आगे बढ़ें"
+  },
+  "not_servicable": {
+    "message": "आपका वर्तमान स्थान अभी सेवा योग्य नहीं है। कृपया निकटतम सेवा योग्य क्षेत्रों की जांच करने के लिए लॉग इन करें।",
+    "login": "लॉगिन करें"
+  },
+  "contact": {
+    "contact_us": "हमसे संपर्क करें",
+    "placeholder_message": "प्रिय ग्राहक, हम आपकी प्रतिक्रिया और सुझावों को महत्व देते हैं। किसी भी प्रश्न, शिकायत या प्रतिक्रिया के लिए, कृपया हमें लिखें और हम आपसे जल्द ही संपर्क करेंगे।"
+  },
+  "about": {
+    "about_us": "हमारे बारे में",
+    "terms": "नियम",
+    "privacy_policy": "गोपनीयता नीति",
+    "returns": "वापसी",
+    "refund": "रिफंड"
+  },
+  "call": {
+    "call_us": "हमें कॉल करें"
+  },
+  "share": {
+    "share": "साझा करें"
+  },
+  "account": {
+    "delete_account": "खाता हटाएँ",
+    "delete_confirm": "क्या आप वाकई अपना खाता हटाना चाहते हैं",
+    "delete": "हटाएं",
+    "cancel": "रद्द करें",
+    "delete_error": "आपका खाता नहीं हटाया जा सकता क्योंकि आपके खाते में ऑर्डर हैं।"
+  },
+  "referral": {
+    "refer_earn": "रेफर करें और कमाएं",
+    "refer_a_friend": "एक दोस्त को रेफर करें",
+    "code_not_found": "रेफरल कोड नहीं मिला।",
+    "code_copied": "रेफरल कोड कॉपी किया गया",
+    "no_rewards": "रिडीम करने के लिए कोई रिवॉर्ड नहीं",
+    "no_referrals": "रेफरल की संख्या",
+    "earned": "अर्जित",
+    "you_have": "आपके पास",
+    "points": "पॉइंट्स",
+    "rewards_available": "उपलब्ध रिवॉर्ड्स",
+    "rewards_earned": "अर्जित रिवॉर्ड्स",
+    "rewards_redeemed": "रिडीम्ड रिवॉर्ड्स",
+    "redeem_points": "पॉइंट्स रिडीम करें",
+    "earned_wallet_credit": "आपने वॉलेट क्रेडिट अर्जित किया है!",
+    "earned_message": "आपके पास वॉलेट में पैसे हैं! आप इसे अपने अगले ऑर्डर पर उपयोग कर सकते हैं। हमारे साथ रहने के लिए धन्यवाद!",
+    "you_earn": "आप कमाएंगे",
+    "with_each_referral": "प्रत्येक रेफरल के साथ",
+    "friend_earn": "आपका दोस्त कमाएगा",
+    "refer_now": "अभी रेफर करें",
+    "terms_conditions": "नियम और शर्तें"
+  },
+  "tabs": {
+    "home": "होम",
+    "orders": "ऑर्डर",
+    "whatsapp": "व्हाट्सएप",
+    "packages": "पैकेज",
+    "refer_earn": "रेफर करें और कमाएं"
+  },
+  "drawer": {
+    "login_required": "लॉगिन आवश्यक है",
+    "version": "संस्करण",
+    "home": "होम",
+    "promotions": "प्रचार और ऑफर",
+    "request_pickup": "पिकअप का अनुरोध करें",
+    "my_requests": "मेरे अनुरोध",
+    "my_orders": "मेरे ऑर्डर",
+    "pay_now": "अभी भुगतान करें",
+    "price-list": "मूल्य सूची",
+    "refer_and_earn": "रेफर करें और कमाएं",
+    "contact_us": "हमसे संपर्क करें",
+    "settings": "सेटिंग्स",
+    "packages": "पैकेज",
+    "amount_due": "बकाया राशि",
+    "price_list": "मूल्य सूची",
+    "log_in": "लॉग इन",
+    "log_out": "लॉग आउट"
+  },
+  "referral_tabs": {
+    "you_get": "आपको मिलेगा",
+    "friend_get": "आपके दोस्त को मिलेगा"
+  },
+  "packages": {
+    "no_active_packages": "कोई सक्रिय पैकेज नहीं",
+    "no_available_packages": "कोई उपलब्ध पैकेज नहीं",
+    "price": "कीमत:",
+    "active": "सक्रिय",
+    "available": "उपलब्ध",
+    "expire_on": "इस पर समाप्त होगा:",
+    "unlimited": "असीमित",
+    "validity": "वैधता:",
+    "validity_days": "दिन",
+    "validity_months": "महीने",
+    "validity_year": "साल",
+    "payment_disabled": "भुगतान अक्षम",
+    "buy_now": "अभी खरीदें",
+    "subscribe_now": "अभी सदस्यता लें",
+    "contact_us": "हमसे संपर्क करें",
+    "balance_available": "उपलब्ध शेष राशि:",
+    "expiring_on": "समाप्त होने की तिथि:",
+    "package_not_found": "पैकेज नहीं मिला"
+  },
+  "checkout": {
+    "your_cart": "आपका कार्ट:",
+    "add_special_instructions_for_services": "सेवाओं के लिए विशेष निर्देश जोड़ें",
+    "keep_ready": "कृपया अपने आइटम तैयार रखें!",
+    "expert_coming": "हमारा लॉन्ड्री / ड्राईक्लीन विशेषज्ञ जल्द ही आपके पास होगा!",
+    "payment_failed": "भुगतान विफल रहा, आपको पिकअप के समय भुगतान करना होगा।",
+    "services": "सेवाएं",
+    "payment_gateway_not_found": "भुगतान गेटवे नहीं मिला",
+    "try_again_later": "फिर से कोशिश करें",
+    "order_created": "ऑर्डर बनाया गया",
+    "chagne_pickup_date_time": "पिकअप की तारीख और समय बदलें",
+    "payment_disabled": "भुगतान अक्षम",
+    "payment_successful": "भुगतान सफल",
+    "pickup_delivery_details": "पिकअप और डिलीवरी विवरण",
+    "enter_coupon_code": "कूपन कोड दर्ज करें",
+    "apply_coupon": "कूपन लगाएं",
+    "go_back_to_home": "होम पर वापस जाएं",
+    "transition_aborted": "लेनदेन उपयोगकर्ता द्वारा रद्द कर दिया गया",
+    "minimum_order_amount_required_title": "न्यूनतम ऑर्डर राशि आवश्यक",
+    "order_total_must_be": "आपके ऑर्डर का कुल योग कम से कम होना चाहिए ",
+    "to_proceed_add_more_items": " आगे बढ़ने के लिए कृपया अपनी कार्ट में और आइटम जोड़ें।"
+  },
+  "payment": {
+    "amount_due": "बकाया राशि:",
+    "discount": "छूट:",
+    "remove_coupon": "कूपन हटाएं",
+    "apply_coupon": "कूपन लगाएं",
+    "final_amount_due": "अंतिम बकाया राशि:",
+    "payment_disabled": "भुगतान अक्षम",
+    "pay_now": "अभी भुगतान करें",
+    "payment_successful": "भुगतान सफल",
+    "your_payment_of": "आपका भुगतान",
+    "is_successful": "सफल है।",
+    "transition_id": "लेनदेन आईडी:",
+    "date": "तारीख:"
+  },
+  "refs": {
+    "redeem_now": "अब रिडीम करें",
+    "invite_friends": "दोस्तों को आमंत्रित करें",
+    "click_here_to": "यहाँ क्लिक करें",
+    "copy": "कॉपी करें",
+    "read": "पढ़ें",
+    "FAQs": "सामान्य प्रश्न"
+  },
+  "static_messages": {
+    "select_services": "सेवाएं चुनें",
+    "package_not_found": "पैकेज नहीं मिला",
+    "enter_otp": "कृपया OTP दर्ज करें",
+    "otp_not_match": "OTP मेल नहीं खाता",
+    "otp_sent_successfully": "OTP सफलतापूर्वक भेजा गया",
+    "mobile_number_not_found": "मोबाइल नंबर नहीं मिला",
+    "authorization_failed": "प्राधिकरण विफल",
+    "enter_house_flat_block": "कृपया एक घर / फ्लैट / ब्लॉक / इमारत दर्ज करें",
+    "select_reason": "कृपया एक कारण चुनें।",
+    "request_cancelled_successfully": "अनुरोध सफलतापूर्वक रद्द किया गया।",
+    "error_create_referral": "नया रेफरल बनाने में त्रुटि",
+    "error_getting_referral_policies": "रेफरल नीतियां प्राप्त करने में त्रुटि।",
+    "payment_successful": "भुगतान सफल",
+    "payment_gateway_error": "भुगतान गेटवे त्रुटि",
+    "order_creation_failed": "ऑर्डर निर्माण विफल।",
+    "order_created": "ऑर्डर बनाया गया",
+    "error_occurred_scheduling": "पिकअप शेड्यूल करते समय एक त्रुटि हुई।",
+    "app_config_error": "ऐप कॉन्फ़िगरेशन त्रुटि",
+    "upi_payment_cancelled_or_delay": "संभव है कि आपने भुगतान रद्द कर दिया हो या UPI ऐप से प्रतिक्रिया में देरी हुई हो।"
+  }
+}

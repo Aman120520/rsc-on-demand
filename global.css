@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primaryColor: '#a5cd39';
+        --primaryTextColor: '#000000';
+        --buttonColor: '#ffc10e';
+        --buttonTextColor: '#ffffff';
+        --iconColor: '#a5cd39';
+        --notificationBadgeColor: '#e74c3c';
+        --readyStatusColor: '#2ecc71';
+        --pendingStatusColor: '#e67e22';
+        
+        --defaultBlack: '#000000';
+        --defaultWhite: '#FFFFFF';
+        --defaultBackgroundColor: '#DDD'
+    }
+}

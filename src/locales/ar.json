@@ -1,0 +1,478 @@
+{
+  "common": {
+    "back": "رجوع",
+    "go_back": "ارجع",
+    "update": "تحديث",
+    "confirm": "تأكيد",
+    "ok": "موافق",
+    "change": "تغيير",
+    "continue": "متابعة",
+    "next": "التالي",
+    "skip": "تخطي",
+    "time": "الوقت",
+    "save": "احفظ",
+    "on_this_code": "على هذا الرمز",
+    "select": "اختر",
+    "choose": "اختر",
+    "date_and_time": "تاريخ ووقت",
+    "Delivered": "تم التسليم",
+    "add": "اضافة",
+    "contact": "اتصل بنا",
+    "special_instructions": "تعليمات خاصة للخدمات",
+    "send": " إرسال",
+    "express_delivery": "تسليم سريع",
+    "address": "العنوان",
+    "delivery": "تسليم",
+    "done": "تم",
+    "pickup": "استلام",
+    "drop_offs": "تسليمات",
+    "call": "اتصال",
+    "contact_us": "اتصل بنا",
+    "apply": "تطبيق",
+    "search": "بحث",
+    "price": "السعر:",
+    "validity": "الصلاحية: ",
+    "unlimited": "غير محدودة",
+    "no": "لا",
+    "yes": "نعم",
+    "reschedule": "إعادة الجدولة",
+    "amount": "المبلغ",
+    "total": "الإجمالي",
+    "id": "المعرّف",
+    "pending": "قيد الانتظار",
+    "off": "تخفيض",
+    "flat_off": "تخفيض مبلغ ثابت",
+    "close": "إغلاق",
+    "open_settings": "افتح الإعدادات",
+    "due": "مستحق",
+    "ready": "جاهز",
+    "orders": "الطلبات",
+    "powered_by": "مدعوم بواسطة",
+    "version": "الإصدار",
+    "package_not_found": "لم يتم العثور على باقة",
+    "no_records": "لم يتم العثور على سجلات",
+    "select_an_item": "اختر عنصرًا",
+    "available_coupons": "كوبونات متاحة",
+    "no_available_coupons": "لا توجد كوبونات متاحة",
+    "payment_coupons": "كوبونات الدفع",
+    "coupon": "كوبون",
+    "cancel_request": "إلغاء الطلب",
+    "cancel_reasons_changed_mind": "غيرت رأيي",
+    "cancel_reasons_date_passed": "تاريخ الاستلام قد مضى بالفعل",
+    "cancel_reasons_just_checking": "كنت أتحقق فقط",
+    "cancel_reasons_do_later": "سأفعل ذلك لاحقاً",
+    "pickup_and_delivery_details": "تفاصيل الاستلام والتسليم",
+    "are_you_sure_you_want_to_remove_the_coupon": "هل أنت متأكد من أنك تريد إزالة الكوبون"
+  },
+  "restart_required_title": "مطلوب إعادة التشغيل",
+  "restart_required_message": "نحتاج إلى إعادة تشغيل التطبيق لتطبيق اختيار اللغة الخاص بك.",
+  "restart_button": "إعادة التشغيل مطلوبة",
+  "cancel_button": "إلغاء",
+  "cancel_reasons": {
+    "changed_mind": "غيرت رأيي",
+    "date_passed": "تاريخ الاستلام قد مضى بالفعل",
+    "just_checking": "كنت أتحقق فقط",
+    "do_later": "سأفعل ذلك لاحقاً"
+  },
+  "calendar": {
+    "choose_date": "اختر تاريخ الاستلام هنا عن طريق التمرير.",
+    "select_tiimeslot": "اختر الفترة الزمنية المفضلة من هنا للاستلام للتوصيل العادي.",
+    "days": {
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد"
+    },
+    "full_days": {
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد"
+    },
+    "months": {
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "مارس",
+      "april": "أبريل",
+      "may": "مايو",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر"
+    },
+    "time": {
+      "am": "ص",
+      "pm": "م"
+    },
+    "express_delivery": {
+      "next_day_50_extra": "اليوم التالي 50% إضافي",
+      "same_day_100_extra": "نفس اليوم 100% إضافي"
+    },
+    "express_delivery_options": "إذا كانت متاحة، اختر هذه الخيارات للتوصيل العاجل.",
+    "schedule_pickup": "جدولة الاستلام"
+  },
+  "date_formatting": {
+    "months": {
+      "Jan": "يناير",
+      "Feb": "فبراير",
+      "Mar": "مارس",
+      "Apr": "أبريل",
+      "May": "مايو",
+      "Jun": "يونيو",
+      "Jul": "يوليو",
+      "Aug": "أغسطس",
+      "Sep": "سبتمبر",
+      "Oct": "أكتوبر",
+      "Nov": "نوفمبر",
+      "Dec": "ديسمبر"
+    }
+  },
+  "pending": {
+    "pending_order": "ليس لديك أي طلبات معلقة.",
+    "pending_notification": "ليس لديك أي إشعارات معلقة."
+  },
+  "auth": {
+    "login_required": "تسجيل الدخول مطلوب",
+    "login_msg": "تحتاج إلى تسجيل الدخول أو إنشاء حساب للمتابعة.",
+    "enter_mobile": "يرجى إدخال رقم جوالك",
+    "continue": "متابعة",
+    "submit": "إرسال",
+    "enter_name": "الرجاء إدخال اسمك",
+    "enter_email": "الرجاء إدخال البريد الإلكتروني الخاص بك",
+    "enter_valid_email": "الرجاء إدخال بريد إلكتروني صالح",
+    "invalid_referal": "رمز الإحالة غير صالح.",
+    "no_service_at_this_location": "الخدمة غير متوفرة في هذا الموقع",
+    "not_enter_spcific_char": "الرجاء عدم إدخال أي حرف خاص في اسمك",
+    "get_otp_on_call": "الحصول على الرمز عبر الاتصال",
+    "registration": {
+      "placeholder_name": "الاسم",
+      "placeholder_email": "البريد الإلكتروني"
+    },
+    "address": {
+      "pickup_address": "عنوان الاستلام",
+      "update_location": "تحديث الموقع",
+      "placeholders": {
+        "house_flat_block": "المنزل / الشقة / المبنى",
+        "street_landmark": "الشارع، المنطقة أو المعلم",
+        "search_area": "ابحث عن منطقة، اسم شارع..."
+      }
+    }
+  },
+  "onboarding": {
+    "next": "التالي",
+    "skip": "تخطي",
+    "done": "تم",
+    "continue": "متابعة",
+    "previous": "السابق",
+    "finish": "إنهاء"
+  },
+  "loading": {
+    "powered_by": "مدعوم بواسطة",
+    "qdc": "برنامج التنظيف الجاف السريع"
+  },
+  "home": {
+    "select_service": " اختر خدمة",
+    "laundry_service": "خدمة الغسيل",
+    "selected_service": "الخدمة المختارة",
+    "select_service_get_estimate": "اختر خدمة واحصل على تقدير",
+    "choose_pickup_select": "اختر وقت الاستلام، حدد",
+    "service_and_relax": "الخدمة والاسترخاء. الأمر بهذه السهولة.",
+    "schedule_pickup": "جدولة الاستلام",
+    "schedule_dropoff": "جدولة التسليم",
+    "choose_services_pickup_relax": "اختر الخدمات، وقت الاستلام واسترخ",
+    "its_that_simple": "الأمر بهذه البساطة.",
+    "estimated_price": "السعر المقدر",
+    "price_per_kg": "السعر لكل كيلوغرام",
+    "price_per_item": "السعر لكل عنصر",
+    "save_prepaid_packs": " وفر مع باقاتنا المدفوعة مسبقًا!",
+    "pickup_one_service": "يرجى اختيار خدمة واحدة على الأقل",
+    "select_pickup_date_time": "الرجاء تحديد تاريخ ووقت الاستلام",
+    "select_reason": "يرجى اختيار سبب",
+    "request_cancel": "تم إلغاء الطلب بنجاح.",
+    "pickups": "الاستلامات"
+  },
+  "checkout": {
+    "your_cart": "سلتك:",
+    "add_special_instructions_for_services": "أضف تعليمات خاصة للخدمات",
+    "services": "الخدمات",
+    "order_created": "تم إنشاء الطلب",
+    "chagne_pickup_date_time": " غيّر تاريخ ووقت الاستلام",
+    "payment_gateway_not_found": "تم تعطيل الدفع",
+    "try_again_later": "تم تعطيل الدفع",
+    "payment_disabled": "تم تعطيل الدفع",
+    "payment_successful": "تم الدفع بنجاح",
+    "pickup_delivery_details": "تفاصيل الاستلام والتسليم",
+    "enter_coupon_code": "أدخل رمز الكوبون",
+    "apply_coupon": "تطبيق الكوبون",
+    "keep_ready": "يرجى تجهيز أغراضك!",
+    "go_back_to_home": "الرجوع إلى الرئيسية",
+    "expert_coming": "خبير الغسيل/التنظيف الجاف سيكون في طريقه إليك قريبًا!",
+    "payment_failed": "فشل الدفع، يجب عليك الدفع وقت الاستلام.",
+    "transition_aborted": "تم إلغاء المعاملة من قبل المستخدم",
+    "minimum_order_amount_required_title": "الحد الأدنى لمبلغ الطلب المطلوب",
+    "order_total_must_be": "يجب أن يكون إجمالي طلبك على الأقل ",
+    "to_proceed_add_more_items": " للمتابعة. يُرجى إضافة المزيد من المنتجات إلى سلة التسوق."
+  },
+  "coupon": {
+    "enter_coupon_code": "أدخل رمز الكوبون",
+    "remove_coupon": "إزالة الكوبون",
+    "discount": "الخصم:"
+  },
+  "gift_card": {
+    "enter_coupon_code": "أدخل رمز الكوبون"
+  },
+  "pricelist": {
+    "title": "قائمة الأسعار",
+    "search": "بحث",
+    "per_kg": "لكل كيلوغرام"
+  },
+  "orders": {
+    "no_orders": "لم يتم العثور على طلبات",
+    "pay_now": "ادفع الآن",
+    "apply_coupon": "تطبيق الكوبون",
+    "tax": "الضريبة",
+    "total_amount": "المبلغ الإجمالي",
+    "order_details": "تفاصيل الطلب",
+    "sub_total": "المبلغ الإجمالي",
+    "order_summary": "ملخص الطلب",
+    "delivered": "تم التسليم",
+    "orders": "الطلبات",
+    "processing": "قيد المعالجة",
+    "due": "مستحق",
+    "ready": "جاهز",
+    "details": {
+      "id": "المعرّف",
+      "amount": "المبلغ",
+      "total": "الإجمالي",
+      "due": "مستحق",
+      "pending": "قيد الانتظار"
+    }
+  },
+  "order_status": {
+    "INPROCESS": "قيد المعالجة",
+    "READY": "جاهز",
+    "DELIVERED": "تم التسليم",
+    "PENDING": "قيد الانتظار",
+    "PROCESSING": "قيد المعالجة",
+    "RECEIVED": "تم الاستلام",
+    "CANCELLED": "تم الإلغاء",
+    "COMPLETED": "مكتمل",
+    "UNPROCESSED": "غير معالج",
+    "RETURNED - PRICE ISSUE": "تم الإرجاع - مشكلة في السعر"
+  },
+  "profile": {
+    "my_profile": "ملفي الشخصي",
+    "back": "رجوع",
+    "update": "تحديث",
+    "update_email": "تحديث البريد الإلكتروني",
+    "update_email_msg": "لتحديث معرف البريد الإلكتروني، يرجى الاتصال على "
+  },
+  "contact_us": {
+    "placeholder_message": "عزيزي العميل، نحن نقدر ملاحظاتك واقتراحاتك. لأي استفسارات أو شكاوى حول الملاحظات، لا تتردد في الكتابة إلينا وسنعاود التواصل معك.",
+    "enter_concern": "يرجى إدخال ملاحظاتك.",
+    "enter_concern_type": "يرجى إدخال نوع ملاحظاتك.",
+    "feedback_submitted": "تم إرسال الملاحظات.",
+    "mobile_number_not_found": "رقم الهاتف غير موجود.",
+    "feedback_reasons": {
+      "Query": "استفسار",
+      "Feedback": "ملاحظات",
+      "Complaints": "شكاوى",
+      "CustomerComplaint": "شكوى العميل"
+    }
+  },
+  "location": {
+    "regular_location_msg": "مرحبًا! هذا ليس موقعك المعتاد!",
+    "update_location_msg": "يختلف موقعك الحالي عن عنوانك المحفوظ. هل ترغب في تحديث عنوان الاستلام الخاص بك؟",
+    "yes_update": "نعم، قم بتحديث موقعي",
+    "no_pickup_from_saved": "لا، استلام من عنواني المحفوظ فقط."
+  },
+  "schedule": {
+    "calendar": {
+      "day_short_format": "يوم",
+      "date_format": "تاريخ"
+    },
+    "location_permission": "إذن الموقع",
+    "location_permission_msg": "  يحتاج إلى الوصول إلى موقعك. قد لا تعمل بعض الميزات بشكل صحيح بخلاف ذلك.",
+    "cancel_reason": "هل يمكن أن تخبرنا بسبب الإلغاء؟",
+    "no_service_found": "لم يتم العثور على خدمة نشطة",
+    "minimum_order_value": "الحد الأدنى لقيمة الطلب للاستلام",
+    "no_review": "لا، سأراجع ملابسي",
+    "yes_continue": "نعم، متابعة",
+    "keep_ready": "يرجى تجهيز أغراضك!",
+    "expert_coming": "خبير الغسيل/التنظيف الجاف سيكون في طريقه إليك قريبًا!"
+  },
+  "header": {
+    "title": "",
+    "notification_count": ""
+  },
+  "home_slider": {
+    "service_name": ""
+  },
+  "settings": {
+    "language": "اللغة"
+  },
+  "otp": {
+    "enter_otp": "يرجى إدخال رمز التحقق",
+    "otp_sent": "تم إرسال رمز التحقق إلى رقم جوالك وبريدك الإلكتروني",
+    "resend_otp": "إعادة إرسال الرمز",
+    "resend_timer": "خلال {{count}} ثانية",
+    "submit": "إرسال",
+    "get_otp_call": "اتصال بالرمز"
+  },
+  "terms": {
+    "terms": "الشروط",
+    "accept_proceed": "قبول ومتابعة"
+  },
+  "not_servicable": {
+    "message": "موقعك الحالي غير متاح للخدمة في الوقت الحالي. الرجاء تسجيل الدخول للتحقق من أقرب المناطق المتاحة.",
+    "login": "تسجيل الدخول"
+  },
+  "contact": {
+    "contact_us": "اتصل بنا",
+    "placeholder_message": " عزيزي العميل، نحن نقدر ملاحظاتك واقتراحاتك. لأي استفسارات أو شكاوى حول الملاحظات، لا تتردد في الكتابة إلينا وسنعاود التواصل معك."
+  },
+  "about": {
+    "about_us": "من نحن",
+    "terms": "الشروط",
+    "privacy_policy": "سياسة الخصوصية",
+    "returns": "الإرجاع",
+    "refund": "الاسترداد"
+  },
+  "call": {
+    "call_us": "اتصل بنا هاتفيًا"
+  },
+  "share": {
+    "share": "مشاركة"
+  },
+  "account": {
+    "delete_account": "حذف الحساب",
+    "delete_confirm": "هل أنت متأكد من أنك تريد حذف حسابك؟",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "delete_error": "لا يمكن حذف حسابك لأن لديك طلبات قيد التنفيذ."
+  },
+  "referral": {
+    "refer_earn": "الإحالة والربح",
+    "refer_a_friend": " أحل صديقًا",
+    "no_referrals": "عدد الإحالات",
+    "code_not_found": "لم يتم العثور على رمز الإحالة.",
+    "code_copied": "تم نسخ رمز الإحالة",
+    "no_rewards": "لا توجد مكافآت للاسترداد",
+    "earned": "المكتسب",
+    "you_have": "لديك",
+    "points": "نقاط",
+    "rewards_available": "المكافآت المتاحة",
+    "rewards_earned": "المكافآت المكتسبة",
+    "rewards_redeemed": "المكافآت المستردة",
+    "redeem_points": "استرداد النقاط",
+    "earned_wallet_credit": "لقد كسبت رصيد المحفظة!",
+    "earned_message": "لديك أموال في المحفظة! يمكنك استخدامها في طلبك التالي. شكرًا لكونك معنا!",
+    "you_earn": "ستربح",
+    "with_each_referral": "مع كل إحالة",
+    "friend_earn": "سيكسب صديقك",
+    "refer_now": "أحل الآن",
+    "terms_conditions": "الشروط والأحكام"
+  },
+  "tabs": {
+    "home": "الرئيسية",
+    "orders": "الطلبات",
+    "whatsapp": "واتساب",
+    "packages": "الباقات",
+    "refer_earn": "الإحالة والربح"
+  },
+  "drawer": {
+    "login_required": "تسجيل الدخول مطلوب",
+    "version": "الإصدار",
+    "home": "الرئيسية",
+    "promotions": "العروض والخصومات",
+    "request_pickup": "طلب استلام",
+    "my_requests": "طلبات الاستلام",
+    "my_orders": "طلباتي",
+    "pay_now": "ادفع الآن",
+    "price-list": "قائمة الأسعار",
+    "refer_and_earn": "الإحالة والربح",
+    "contact_us": "اتصل بنا",
+    "settings": "الإعدادات",
+    "packages": "الباقات",
+    "amount_due": "المبلغ المستحق",
+    "price_list": "قائمة الأسعار",
+    "log_in": "تسجيل الدخول",
+    "log_out": "تسجيل الخروج"
+  },
+  "referral_tabs": {
+    "you_get": "ستحصل على",
+    "friend_get": "يحصل صديقك على"
+  },
+  "packages": {
+    "no_active_packages": "لا توجد باقات نشطة",
+    "no_available_packages": "لا توجد باقات متاحة",
+    "expire_on": "ينتهي في:",
+    "unlimited": "غير محدودة",
+    "validity_days": "يوم",
+    "validity_months": "شهر",
+    "validity_year": "سنة",
+    "payment_disabled": "تم تعطيل الدفع",
+    "buy_now": "اشترِ الآن",
+    "subscribe_now": "اشترك الآن",
+    "contact_us": "اتصل بنا",
+    "price": "السعر:",
+    "active": "نشط",
+    "available": "متاح",
+    "validity": "الصلاحية: ",
+    "balance_available": "الرصيد المتاح:",
+    "expiring_on": "ينتهي في:",
+    "package_not_found": "لم يتم العثور على باقة"
+  },
+  "payment": {
+    "amount_due": "المبلغ المستحق:",
+    "discount": "الخصم:",
+    "remove_coupon": "إزالة الكوبون",
+    "apply_coupon": "تطبيق الكوبون",
+    "payment_successful": "تم الدفع بنجاح",
+    "your_payment_of": "دفعتك بقيمة",
+    "final_amount_due": "المبلغ النهائي المستحق:",
+    "payment_disabled": "تم تعطيل الدفع",
+    "pay_now": "ادفع الآن",
+    "is_successful": "ناجح.",
+    "transition_id": "معرف المعاملة:",
+    "date": "التاريخ"
+  },
+  "refs": {
+    "redeem_now": "استرد الآن",
+    "invite_friends": "دعوة الأصدقاء",
+    "click_here_to": "اضغط هنا لـ",
+    "copy": "نسخ",
+    "read": "اقرأ",
+    "FAQs": "الأسئلة الشائعة"
+  },
+  "static_messages": {
+    "select_services": "اختر الخدمات",
+    "package_not_found": "الحزمة غير موجودة",
+    "enter_otp": "يرجى إدخال OTP",
+    "otp_not_match": "OTP غير متطابق",
+    "otp_sent_successfully": "تم إرسال OTP بنجاح",
+    "mobile_number_not_found": "رقم الهاتف غير موجود",
+    "authorization_failed": "فشل في التفويض",
+    "enter_house_flat_block": "يرجى إدخال منزل / شقة / كتلة / مبنى",
+    "select_reason": "يرجى اختيار سبب.",
+    "request_cancelled_successfully": "تم إلغاء الطلب بنجاح.",
+    "error_create_referral": "خطأ في إنشاء إحالة جديدة",
+    "error_getting_referral_policies": "خطأ في الحصول على سياسات الإحالة.",
+    "payment_successful": "تم الدفع بنجاح",
+    "payment_gateway_error": "خطأ في بوابة الدفع",
+    "order_creation_failed": "فشل في إنشاء الطلب.",
+    "order_created": "تم إنشاء الطلب",
+    "error_occurred_scheduling": "حدث خطأ أثناء جدولة الاستلام.",
+    "app_config_error": "خطأ في إعدادات التطبيق",
+    "upi_payment_cancelled_or_delay": "ربما ألغيت عملية الدفع أو حدث تأخير في الاستجابة من تطبيق UPI"
+  }
+}

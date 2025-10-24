@@ -1,0 +1,486 @@
+{
+  "common": {
+    "back": "Retour",
+    "go_back": "Retour",
+    "update": "Mettre à jour",
+    "confirm": "Confirmer",
+    "change": "Modifier",
+    "continue": "Continuer",
+    "next": "Suivant",
+    "skip": "Ignorer",
+    "save": "Économiser",
+    "on_this_code": "sur ce code",
+    "time": "heure",
+    "select": "Sélectionner",
+    "choose": "Choisissez la",
+    "add": "Ajouter",
+    "date_and_time": "date et l’heure",
+    "done": "Terminé",
+    "Delivered": "Livré",
+    "express_delivery": "Livraison express",
+    "send": " Envoyer",
+    "off": "de rabais",
+    "flat_off": "rabais fixe",
+    "ok": "OK",
+    "call": "Appeler",
+    "contact": "Contact",
+    "special_instructions": "Instructions spéciales pour les services",
+    "delivery": "Livraison",
+    "address": "Adresse",
+    "close": "Fermer",
+    "open_settings": "Ouvrir les paramètres",
+    "pickup": "Ramasser",
+    "drop_offs": "Dépôts",
+    "contact_us": "Contactez-nous",
+    "reschedule": "Replanifier",
+    "search": "Rechercher",
+    "price": "Prix :",
+    "validity": "Validité :",
+    "unlimited": "Illimité",
+    "amount": "Montant",
+    "apply": "Appliquer",
+    "total": "total",
+    "id": "ID",
+    "no": "Non",
+    "yes": "Oui",
+    "pending": "en attente",
+    "due": "dû",
+    "ready": "prêt",
+    "orders": "commandes",
+    "powered_by": "Propulsé par",
+    "version": "Version",
+    "package_not_found": "Pack introuvable",
+    "no_records": "Aucun enregistrement trouvé",
+    "select_an_item": "Sélectionnez un élément",
+    "available_coupons": "Coupons disponibles",
+    "no_available_coupons": "Aucun coupon disponible",
+    "payment_coupons": "Coupons de paiement",
+    "cancel_request": "Annuler la demande",
+    "coupon": "Coupon",
+    "cancel_reasons_changed_mind": "J'ai changé d'avis",
+    "cancel_reasons_date_passed": "La date de ramassage est déjà passée",
+    "cancel_reasons_just_checking": "Je vérifiais juste",
+    "cancel_reasons_do_later": "Je le ferai plus tard",
+    "pickups": "micros",
+    "pickup_and_delivery_details": "Détails du ramassage et de la livraison",
+    "are_you_sure_you_want_to_remove_the_coupon": "Êtes-vous sûr de vouloir supprimer le coupon"
+  },
+  "restart_required_title": "Redémarrage requis",
+  "restart_required_message": "Nous devons redémarrer l'application pour appliquer votre choix de langue.",
+  "restart_button": "Redémarrer maintenant",
+  "cancel_button": "Annuler",
+  "cancel_reasons": {
+    "changed_mind": "J'ai changé d'avis",
+    "date_passed": "La date de ramassage est déjà passée",
+    "just_checking": "Je vérifiais juste",
+    "do_later": "Je le ferai plus tard"
+  },
+  "calendar": {
+    "choose_date": "Choisissez ici la date de ramassage en la faisant défiler.",
+    "select_tiimeslot": "Sélectionnez ici le créneau horaire préféré pour le ramassage avec livraison régulière.",
+    "days": {
+      "monday": "Lun",
+      "tuesday": "Mar",
+      "wednesday": "Mer",
+      "thursday": "Jeu",
+      "friday": "Ven",
+      "saturday": "Sam",
+      "sunday": "Dim"
+    },
+    "full_days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "months": {
+      "january": "janv.",
+      "february": "févr.",
+      "march": "mars",
+      "april": "avr.",
+      "may": "mai",
+      "june": "juin",
+      "july": "juill.",
+      "august": "août",
+      "september": "sept.",
+      "october": "oct.",
+      "november": "nov.",
+      "december": "déc."
+    },
+    "time": {
+      "am": "AM",
+      "pm": "PM"
+    },
+    "express_delivery": {
+      "next_day_50_extra": "Lendemain 50% Supplémentaire",
+      "same_day_100_extra": "Même jour 100% Supplémentaire"
+    },
+    "express_delivery_options": "Si disponible, choisissez ces options pour une livraison urgente.",
+    "schedule_pickup": "Planifier une collecte"
+  },
+  "date_formatting": {
+    "months": {
+      "Jan": "janv.",
+      "Feb": "févr.",
+      "Mar": "mars",
+      "Apr": "avr.",
+      "May": "mai",
+      "Jun": "juin",
+      "Jul": "juill.",
+      "Aug": "août",
+      "Sep": "sept.",
+      "Oct": "oct.",
+      "Nov": "nov.",
+      "Dec": "déc."
+    }
+  },
+  "pending": {
+    "pending_order": " Vous n'avez aucune commande en attente.",
+    "pending_notification": " Vous n'avez aucune notification en attente."
+  },
+  "auth": {
+    "login_required": "Connexion requise",
+    "login_msg": "Vous devez vous connecter ou créer un compte pour continuer.",
+    "enter_mobile": "Veuillez entrer votre numéro de cellulaire",
+    "continue": "Continuer",
+    "submit": "Soumettre",
+    "enter_name": "Veuillez entrer votre nom",
+    "enter_email": "Veuillez entrer votre email",
+    "enter_valid_email": "Veuillez entrer une adresse e-mail valide",
+    "invalid_referal": "Code de parrainage non valide.",
+    "no_service_at_this_location": "Service non disponible à cet endroit",
+    "not_enter_spcific_char": "Veuillez ne saisir aucun caractère spécial dans votre nom ",
+    "get_otp_on_call": "Recevoir par appel",
+    "registration": {
+      "placeholder_name": "Nom",
+      "placeholder_email": "E-mail"
+    },
+    "address": {
+      "pickup_address": "Adresse de collecte",
+      "update_location": "Mettre à jour l'emplacement",
+      "placeholders": {
+        "house_flat_block": "Maison / Appartement / Bloc / Bâtiment",
+        "street_landmark": "Rue, résidence ou point de repère",
+        "search_area": "Rechercher une zone, un nom de rue..."
+      }
+    }
+  },
+  "loading": {
+    "powered_by": "Propulsé par",
+    "qdc": "Quick Dry Cleaning Software"
+  },
+  "home": {
+    "select_service": "Sélectionnez un service",
+    "laundry_service": "Service de blanchisserie",
+    "selected_service": "Service sélectionné",
+    "select_service_get_estimate": "Sélectionnez un service et obtenez une estimation",
+    "choose_pickup_select": "Choisissez l’heure de ramassage, sélectionnez",
+    "service_and_relax": "le service et détendez-vous. C’est aussi simple que ça.",
+    "schedule_pickup": "Planifier un ramassage",
+    "schedule_dropoff": "Planifier une livraison",
+    "choose_services_pickup_relax": "Choisissez les services, l'heure de collecte et détendez-vous",
+    "its_that_simple": "c'est aussi simple.",
+    "estimated_price": "Prix estimé",
+    "price_per_kg": "Prix par kilogramme",
+    "price_per_item": "Prix par article",
+    "save_prepaid_packs": " Économisez avec nos packs prépayés!",
+    "pickup_one_service": " Veuillez sélectionner au moins un service",
+    "select_pickup_date_time": "Veuillez sélectionner la date et l'heure de ramassage",
+    "select_reason": "Veuillez sélectionner une raison",
+    "request_cancel": " Demande annulée avec succès."
+  },
+  "coupon": {
+    "enter_coupon_code": "Entrez le code du coupon",
+    "remove_coupon": "Supprimer le code",
+    "discount": "Remise :"
+  },
+  "gift_card": {
+    "enter_coupon_code": "Entrez le code du coupon"
+  },
+  "pricelist": {
+    "title": "Liste des prix",
+    "search": "Rechercher",
+    "per_kg": "Par KG"
+  },
+  "orders": {
+    "order_details": "Détails de la commande",
+    "order_summary": "Résumé de la commande",
+    "delivered": "Livré",
+    "tax": "Taxe",
+    "total_amount": "Montant total",
+    "apply_coupon": "Appliquer le coupon",
+    "sub_total": "Sous-total",
+    "no_orders": "Aucune commande trouvée",
+    "pay_now": "payer maintenant",
+    "orders": "commandes",
+    "processing": "en cours",
+    "due": "dû",
+    "ready": "prêt",
+    "details": {
+      "id": "id",
+      "amount": "montant",
+      "total": "total",
+      "due": "dû",
+      "pending": "en attente"
+    }
+  },
+  "order_status": {
+    "INPROCESS": "En traitement",
+    "READY": "Prêt",
+    "DELIVERED": "Livré",
+    "PENDING": "En attente",
+    "PROCESSING": "En cours",
+    "RECEIVED": "Reçu",
+    "CANCELLED": "Annulé",
+    "COMPLETED": "Terminé",
+    "UNPROCESSED": "Non traité",
+    "RETURNED - PRICE ISSUE": "Retourné – Problème de prix"
+  },
+  "contact_us": {
+    "placeholder_message": "Cher client, nous apprécions vos commentaires et suggestions. Pour toute demande ou plainte concernant vos commentaires, n’hésitez pas à nous écrire et nous vous répondrons.",
+    "enter_concern": "Veuillez entrer vos préoccupations.",
+    "enter_concern_type": "Veuillez entrer le type de vos préoccupations.",
+    "feedback_submitted": "Feedback soumis.",
+    "mobile_number_not_found": "Numéro de téléphone non trouvé.",
+    "feedback_reasons": {
+      "Query": "Demande",
+      "Feedback": "Rétroaction",
+      "Complaints": "Plaintes",
+      "CustomerComplaint": "Plainte du client"
+    }
+  },
+  "location": {
+    "regular_location_msg": " Hé! Ce n'est pas votre emplacement habituel!",
+    "update_location_msg": "Votre emplacement actuel diffère de votre adresse enregistrée. Voulez-vous mettre",
+    "yes_update": "Oui, mettez à jour mon emplacement",
+    "no_pickup_from_saved": "Non, ramassez uniquement à partir de mon adresse enregistrée."
+  },
+  "schedule": {
+    "calendar": {
+      "day_short_format": "ddd",
+      "date_format": "DD"
+    },
+    "location_permission": "Permission de localisation",
+    "location_permission_msg": "  a besoin d'accéder à votre emplacement. Certaines fonctionnalités peuvent ne pas fonctionner correctement sinon.",
+    "cancel_reason": "Pourriez-vous nous indiquer la raison de l’annulation ?",
+    "minimum_order_value": "Valeur minimale de commande pour le ramassage",
+    "no_service_found": "Aucun service actif trouvé",
+    "no_review": "Non, je vais revoir mes vêtements",
+    "yes_continue": "Oui, continuer",
+    "keep_ready": "VEUILLEZ PRÉPARER VOS ARTICLES !",
+    "expert_coming": "Notre expert en blanchisserie / nettoyage à sec sera bientôt en route !"
+  },
+  "header": {
+    "title": "",
+    "notification_count": ""
+  },
+  "home_slider": {
+    "service_name": ""
+  },
+  "settings": {
+    "language": "Langue"
+  },
+  "onboarding": {
+    "next": "Suivant",
+    "skip": "Passer",
+    "done": "Terminé",
+    "continue": "Continuer",
+    "previous": "Précédent",
+    "finish": "Terminer"
+  },
+  "transition_": {
+    "next": "Suivant",
+    "skip": "Passer",
+    "done": "Terminé",
+    "continue": "Continuer",
+    "previous": "Précédent",
+    "finish": "Terminer"
+  },
+  "otp": {
+    "enter_otp": "Veuillez entrer le code OTP",
+    "otp_sent": "Un code OTP vous a été envoyé sur votre numéro de cellulaire et par courriel",
+    "resend_otp": "Renvoyer le code OTP",
+    "resend_timer": "dans {{count}} s",
+    "submit": "Soumettre",
+    "get_otp_call": "Recevoir par appel"
+  },
+  "terms": {
+    "terms": "Termes",
+    "accept_proceed": "Accepter et continuer"
+  },
+  "not_servicable": {
+    "message": "Votre emplacement actuel n'est pas desservi pour le moment. Veuillez vous connecter pour vérifier les zones desservies les plus proches.",
+    "login": "Connexion"
+  },
+  "profile": {
+    "my_profile": "mon profil",
+    "back": "Retour",
+    "update": "Mettre à jour",
+    "update_email": "Mettre à jour l'e-mail",
+    "update_email_msg": "Pour mettre à jour l'ID e-mail, veuillez appeler le "
+  },
+  "contact": {
+    "contact_us": "Contactez-nous",
+    "placeholder_message": "Cher client, nous apprécions vos commentaires et suggestions. Pour toute demande ou plainte concernant vos commentaires, n’hésitez pas à nous écrire et nous vous répondrons."
+  },
+  "about": {
+    "about_us": "À propos de nous",
+    "terms": "Conditions d’utilisation",
+    "privacy_policy": "Politique de confidentialité",
+    "returns": "Retour",
+    "refund": "Remboursement"
+  },
+  "call": {
+    "call_us": "Appelez-nous"
+  },
+  "share": {
+    "share": "partager"
+  },
+  "account": {
+    "delete_account": "supprimer le compte",
+    "delete_confirm": "Êtes-vous sûr de vouloir supprimer votre compte",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "delete_error": "Votre compte ne peut pas être supprimé car vous avez des commandes dans votre compte."
+  },
+  "referral": {
+    "refer_earn": "Parrainez",
+    "refer_a_friend": "Parrainer un ami",
+    "no_referrals": "Nombre de parrainages",
+    "code_not_found": "Code de parrainage introuvable.",
+    "code_copied": "Code de parrainage copié",
+    "no_rewards": "Aucune récompense à échanger",
+    "earned": "Gagné",
+    "you_have": "Vous avez",
+    "points": "points",
+    "rewards_available": "Récompenses disponibles",
+    "rewards_earned": "Récompenses gagnées",
+    "rewards_redeemed": "Récompenses échangées",
+    "redeem_points": "Échanger des points",
+    "earned_wallet_credit": "Vous avez gagné un crédit de portefeuille!",
+    "earned_message": "Vous avez de l'argent dans le portefeuille ! Vous pouvez l'utiliser sur votre prochaine commande. Merci d'être avec nous!",
+    "you_earn": "Vous gagnerez",
+    "with_each_referral": "avec chaque parrainage",
+    "friend_earn": "Votre ami gagnera",
+    "refer_now": "Parrainer maintenant",
+    "terms_conditions": "Termes et conditions"
+  },
+  "tabs": {
+    "home": "Accueil",
+    "orders": "Commandes",
+    "whatsapp": "WhatsApp",
+    "packages": "Forfaits",
+    "refer_earn": "Parrainez"
+  },
+  "drawer": {
+    "login_required": "Connexion requise",
+    "version": "Version",
+    "home": "Accueil",
+    "promotions": "Promotions et Offres",
+    "request_pickup": "Demander un ramassage",
+    "my_requests": "Mes demandes",
+    "my_orders": "Mes commandes",
+    "pay_now": "Payer maintenant",
+    "price-list": "Liste de prix",
+    "refer_and_earn": "Parrainer et gagner",
+    "contact_us": "Contactez-nous",
+    "settings": "Paramètres",
+    "packages": "Forfaits",
+    "amount_due": "Montant dû",
+    "price_list": "Liste de prix",
+    "log_in": "Se connecter ",
+    "log_out": "Se déconnecter"
+  },
+  "referral_tabs": {
+    "you_get": "Vous obtenez",
+    "friend_get": "Votre ami obtient"
+  },
+  "packages": {
+    "no_active_packages": "Aucun pack actif",
+    "no_available_packages": "Aucun pack disponible",
+    "price": "Prix :",
+    "active": "Actif",
+    "available": "Disponible",
+    "expire_on": "Expire le :",
+    "unlimited": "Illimité",
+    "validity": "Validité :",
+    "validity_days": "jours",
+    "validity_months": "mois",
+    "validity_year": "an",
+    "payment_disabled": "Paiement désactivé",
+    "buy_now": "Acheter maintenant",
+    "subscribe_now": "Abonnez-vous",
+    "contact_us": "Contactez-nous",
+    "balance_available": "Solde disponible : ",
+    "expiring_on": "Expire le : ",
+    "package_not_found": "Pack introuvable"
+  },
+  "checkout": {
+    "your_cart": "Votre panier :",
+    "add_special_instructions_for_services": "Ajoutez des instructions spéciales aux services spéciaux",
+    "keep_ready": "VEUILLEZ PRÉPARER VOS ARTICLES !",
+    "expert_coming": "Notre expert en blanchisserie / nettoyage à sec sera bientôt en route !",
+    "payment_failed": "Paiement échoué, vous devrez payer au moment de la collecte.",
+    "services": "Services",
+    "order_created": "Commande créée",
+    "payment_gateway_not_found": "Passerelle de paiement introuvable",
+    "try_again_later": "Réessayez plus tard",
+    "chagne_pickup_date_time": "Modifier la date et l'heure de collecte",
+    "payment_disabled": "Paiement désactivé",
+    "payment_successful": "Paiement réussi",
+    "pickup_delivery_details": "Détails de collecte et de livraison",
+    "enter_coupon_code": "Entrez le code du coupon",
+    "apply_coupon": "Appliquer le coupon",
+    "go_back_to_home": "Retourner à l’accueil",
+    "transition_aborted": "Transaction annulée par l'utilisateur",
+    "minimum_order_amount_required_title": "Montant minimum de commande requis",
+    "order_total_must_be": "Le total de votre commande doit être d’au moins ",
+    "to_proceed_add_more_items": " pour continuer, Veuillez ajouter d’autres articles à votre panier."
+  },
+  "payment": {
+    "amount_due": "Montant dû :",
+    "discount": "Remise :",
+    "remove_coupon": "Supprimer le code",
+    "apply_coupon": "Appliquer le coupon",
+    "final_amount_due": "Montant dû final :",
+    "payment_disabled": "Paiement désactivé",
+    "pay_now": "Payer maintenant",
+    "payment_successful": "Paiement réussi",
+    "your_payment_of": "Votre paiement de",
+    "is_successful": "est réussi.",
+    "transition_id": "ID de transaction :",
+    "date": "Date :"
+  },
+  "refs": {
+    "redeem_now": "Racheter maintenant",
+    "invite_friends": "Inviter des amis",
+    "click_here_to": "Cliquez ici pour",
+    "copy": "Copier",
+    "read": "lire la",
+    "FAQs →": "FAQs"
+  },
+  "static_messages": {
+    "select_services": "Sélectionner les services",
+    "package_not_found": "Package non trouvé",
+    "enter_otp": "Veuillez saisir l'OTP",
+    "otp_not_match": "OTP ne correspond pas",
+    "otp_sent_successfully": "OTP envoyé avec succès",
+    "mobile_number_not_found": "Numéro de téléphone non trouvé",
+    "authorization_failed": "Autorisation échouée",
+    "enter_house_flat_block": "Veuillez saisir une Maison / Appartement / Bloc / Bâtiment",
+    "select_reason": "Veuillez sélectionner une raison.",
+    "request_cancelled_successfully": "Demande annulée avec succès.",
+    "error_create_referral": "Erreur lors de la création d'un nouveau parrainage",
+    "error_getting_referral_policies": "Erreur lors de l'obtention des politiques de parrainage.",
+    "payment_successful": "Paiement réussi",
+    "payment_gateway_error": "Erreur de passerelle de paiement",
+    "order_creation_failed": "Échec de la création de commande.",
+    "order_created": "Commande créée",
+    "error_occurred_scheduling": "Une erreur s'est produite lors de la planification du ramassage.",
+    "app_config_error": "Erreur de configuration de l'application",
+    "upi_payment_cancelled_or_delay": "Vous avez peut-être annulé le paiement ou il y a eu un retard de réponse de l'application UPI"
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "common": {
+    "back": "Back",
+    "go_back": "Go Back",
+    "update": "Update",
+    "confirm": "Confirm",
+    "change": "Change",
+    "no": "No",
+    "ok": "OK",
+    "yes": "Yes",
+    "continue": "Continue",
+    "next": "Next",
+    "Delivered": "Delivered",
+    "save": "Save",
+    "on_this_code": "on this code",
+    "choose": "Choose",
+    "date_and_time": "Date and Time",
+    "skip": "Skip",
+    "add": "Add",
+    "contact": "Contact",
+    "done": "Done",
+    "special_instructions": "Special Instructions for services",
+    "send": " Send",
+    "pickup": "Pickup",
+    "address": "Address",
+    "drop_offs": "Drop Offs",
+    "call": "Call",
+    "off": "OFF",
+    "flat_off": "FLAT OFF",
+    "contact_us": "Contact Us",
+    "search": "Search",
+    "close": "Close",
+    "open_settings": "Open Settings",
+    "price": "Price:",
+    "validity": "Validity:",
+    "unlimited": "Unlimited",
+    "delivery": "Delivery",
+    "amount": "amount",
+    "total": "total",
+    "id": "id",
+    "pending": "pending",
+    "time": "time",
+    "select": "select",
+    "reschedule": "Reschedule",
+    "apply": "Apply",
+    "due": "due",
+    "ready": "ready",
+    "orders": "orders",
+    "express_delivery": "Express Delivery",
+    "powered_by": "Powered by",
+    "version": "Version",
+    "package_not_found": "Package Not Found",
+    "no_records": "No Records Found",
+    "select_an_item": "Select an item",
+    "available_coupons": "Available Coupons",
+    "no_available_coupons": "No Available Coupons",
+    "payment_coupons": "Payment Coupons",
+    "cancel_request": "Cancel Request",
+    "coupon": "Coupon",
+    "pickups": "pickups",
+    "pickup_and_delivery_details": "Pickup & Delivery Details",
+    "are_you_sure_you_want_to_remove_the_coupon": "Are you sure you want to remove the coupon"
+  },
+  "restart_required_title": "Restart Required",
+  "restart_required_message": "We need to restart the app to apply your language choice.",
+  "restart_button": "Restart Now",
+  "cancel_button": "Cancel",
+  "cancel_reasons": {
+    "changed_mind": "I changed my mind",
+    "date_passed": "Pickup date already passed",
+    "just_checking": "I was just checking it",
+    "do_later": "Will do it later"
+  },
+
+  "calendar": {
+    "choose_date": "Choose the date of pickup here by sliding it.",
+    "select_tiimeslot": "Select the preferred time slot from here for the pickup for Regular delivery.",
+    "days": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    },
+    "full_days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "months": {
+      "january": "Jan",
+      "february": "Feb",
+      "march": "Mar",
+      "april": "Apr",
+      "may": "May",
+      "june": "Jun",
+      "july": "Jul",
+      "august": "Aug",
+      "september": "Sep",
+      "october": "Oct",
+      "november": "Nov",
+      "december": "Dec"
+    },
+    "time": {
+      "am": "AM",
+      "pm": "PM"
+    },
+    "express_delivery": {
+      "next_day_50_extra": "Next Day 50% Extra",
+      "same_day_100_extra": "Same Day 100% Extra"
+    },
+    "express_delivery_options": "If available, choose these for urgent delivery.",
+    "schedule_pickup": "Schedule a pickup"
+  },
+  "date_formatting": {
+    "months": {
+      "Jan": "Jan",
+      "Feb": "Feb",
+      "Mar": "Mar",
+      "Apr": "Apr",
+      "May": "May",
+      "Jun": "Jun",
+      "Jul": "Jul",
+      "Aug": "Aug",
+      "Sep": "Sep",
+      "Oct": "Oct",
+      "Nov": "Nov",
+      "Dec": "Dec"
+    }
+  },
+  "pending": {
+    "pending_order": "You don't have any pending order.",
+    "pending_notification": "You don't have any pending notifications."
+  },
+  "auth": {
+    "login_required": "Login Required",
+    "login_msg": "You need to login or create an account to continue.",
+    "enter_mobile": "Please enter your mobile number",
+    "continue": "Continue",
+    "submit": "Submit",
+    "enter_name": "Please enter your name",
+    "enter_email": "Please enter your email",
+    "enter_valid_email": "Please enter a valid email",
+    "invalid_referal": "Invalid Referral code.",
+    "no_service_at_this_location": "Service not available at this location",
+    "not_enter_spcific_char": "Please do not enter any speacial character in your name ",
+    "get_otp_on_call": "Get OTP on Call",
+    "registration": {
+      "placeholder_name": "Name",
+      "placeholder_email": "Email"
+    },
+    "address": {
+      "pickup_address": "Pickup Address",
+      "update_location": "Update Location",
+      "placeholders": {
+        "house_flat_block": "House / Flat / Block / Building",
+        "street_landmark": "Street, Society or Landmark",
+        "search_area": "Search for area, street name..."
+      }
+    }
+  },
+  "onboarding": {
+    "next": "Next",
+    "skip": "Skip",
+    "done": "Done",
+    "continue": "Continue",
+    "previous": "Previous",
+    "finish": "Finish"
+  },
+
+  "loading": {
+    "powered_by": "Powered by",
+    "qdc": "Quick Dry Cleaning Software"
+  },
+  "home": {
+    "select_service": "Select a service",
+    "laundry_service": "Laundry Service",
+    "selected_service": "Selected Service",
+    "select_service_get_estimate": "Select a Service & Get an estimate",
+    "choose_pickup_select": "Choose pickup time, select",
+    "service_and_relax": "service and relax. it’s that simple.",
+    "schedule_dropoff": "Schedule Dropoff",
+    "schedule_pickup": "Schedule Pickup",
+    "choose_services_pickup_relax": "Choose Services, pickup time and relax",
+    "its_that_simple": "it’s that simple.",
+    "estimated_price": "Estimated Price",
+    "price_per_kg": "Price per kilogram",
+    "price_per_item": "Price per item",
+    "save_prepaid_packs": "Save with our prepaid packs!",
+    "pickup_one_service": "Please select atleast one service",
+    "select_pickup_date_time": "Please select pickup date and time",
+    "select_reason": "Please select a reason",
+    "request_cancel": "Request cancelled successfully."
+  },
+  "coupon": {
+    "enter_coupon_code": "Enter coupon code",
+    "remove_coupon": "Remove Coupon",
+    "discount": "Discount:"
+  },
+  "gift_card": {
+    "enter_coupon_code": "Enter coupon code"
+  },
+  "pricelist": {
+    "title": "Pricelist",
+    "search": "Search",
+    "per_kg": "Per KG"
+  },
+  "orders": {
+    "order_details": "Order Details",
+    "apply_coupon": "Apply Coupon",
+    "tax": "Tax",
+    "sub_total": "Sub Total",
+    "total_amount": "Total Amount",
+    "order_summary": "Order Summary",
+    "delivered": "Delivered",
+    "no_orders": "No orders found",
+    "pay_now": "pay now",
+    "orders": "orders",
+    "processing": "processing",
+    "due": "due",
+    "completed": "completed",
+    "ready": "ready",
+    "details": {
+      "id": "id",
+      "amount": "amount",
+      "total": "total",
+      "due": "due",
+      "pending": "pending"
+    }
+  },
+  "order_status": {
+    "INPROCESS": "In Process",
+    "READY": "Ready",
+    "DELIVERED": "Delivered",
+    "PENDING": "Pending",
+    "PROCESSING": "Processing",
+    "RECEIVED": "Received",
+    "CANCELLED": "Cancelled",
+    "COMPLETED": "Completed",
+    "UNPROCESSED": "Unprocessed"
+  },
+  "contact_us": {
+    "placeholder_message": "Dear Customer, we value your feedback and suggestions. For any queries, complaints or feedback, please feel free to write to us and we will get back to you.",
+    "enter_concern": "Please enter your concerns.",
+    "enter_concern_type": "Please enter your concerns type.",
+    "feedback_submitted": "Feedback Submitted.",
+    "mobile_number_not_found": "Mobile number not found.",
+    "feedback_reasons": {
+      "Query": "Query",
+      "Feedback": "Feedback",
+      "Complaints": "Complaints",
+      "CustomerComplaint": "Customer Complaint"
+    }
+  },
+  "location": {
+    "regular_location_msg": " Hey! This isn't your regular location!",
+    "update_location_msg": "Your current location differs from your saved address. Would You like to update your pickup address?",
+    "yes_update": "Yes, update my location",
+    "no_pickup_from_saved": "No, pick up from my saved address only."
+  },
+  "schedule": {
+    "calendar": {
+      "day_short_format": "ddd",
+      "date_format": "DD"
+    },
+    "location_permission": "Location Permission",
+    "location_permission_msg": "we need access to your location. Some features may not work properly otherwise.",
+    "cancel_reason": "Could you please let us know the reason for cancellation?",
+    "minimum_order_value": "Minimum Order Value for Pickup",
+    "no_review": "No, I'll review my garments",
+    "no_service_found": "No Active Service Found",
+    "yes_continue": "Yes, Continue",
+    "keep_ready": "Please keep your items ready!",
+    "expert_coming": "Our Laundry / Dryclean expert will be on his way soon!"
+  },
+  "header": {
+    "title": "",
+    "notification_count": ""
+  },
+  "home_slider": {
+    "service_name": ""
+  },
+  "settings": {
+    "language": "Language"
+  },
+
+  "otp": {
+    "enter_otp": "Please enter OTP",
+    "otp_sent": "OTP has been sent to you on your mobile number and email",
+    "resend_otp": "Resend OTP",
+    "resend_timer": "in {{count}} sec",
+    "submit": "Submit",
+    "get_otp_call": "Get OTP on Call"
+  },
+  "terms": {
+    "terms": "Terms",
+    "accept_proceed": "Accept & Proceed"
+  },
+  "not_servicable": {
+    "message": "Your current location is not serviceable at the moment. Please log in to check the nearest serviceable areas.",
+    "login": "Login"
+  },
+  "profile": {
+    "my_profile": "my profile",
+    "back": "Back",
+    "update": "Update",
+    "update_email": "Update Email",
+    "update_email_msg": "To update Email ID, please call on "
+  },
+  "contact": {
+    "contact_us": "contact us",
+    "placeholder_message": "Dear Customer, we value your feedback and suggestions. For any queries, complaints or feedback, please feel free to write to us and we will get back to you."
+  },
+  "about": {
+    "about_us": "About Us",
+    "terms": "Terms",
+    "privacy_policy": "Privacy Policy",
+    "returns": "Returns",
+    "refund": "Refund"
+  },
+  "call": {
+    "call_us": "call us"
+  },
+  "share": {
+    "share": "share"
+  },
+  "account": {
+    "delete_account": "delete account",
+    "delete_confirm": "Are you sure you want to delete your account",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "delete_error": "Your account can not be deleted as you have orders in your account."
+  },
+  "referral": {
+    "refer_earn": "Refer & Earn",
+    "refer_a_friend": "Refer a Friend",
+    "no_referrals": "No. of Referals",
+    "code_not_found": "Referral Code not found.",
+    "code_copied": "Referral code copied",
+    "no_rewards": "No rewards to redeem",
+    "earned": "Earned",
+    "you_have": "You have",
+    "points": "points",
+    "rewards_available": "Rewards Available",
+    "rewards_earned": "Rewards Earned",
+    "rewards_redeemed": "Rewards Redeemed",
+    "redeem_points": "Redeem Points",
+    "earned_wallet_credit": "You've Earned Wallet Credit!",
+    "earned_message": "You've got wallet money! You can use it on your next order. Thanks for being with us!",
+    "you_earn": "You'll earn",
+    "with_each_referral": "with each referral",
+    "friend_earn": "Your friend will earn",
+    "refer_now": "Refer Now",
+    "terms_conditions": "Terms & Conditions"
+  },
+  "tabs": {
+    "home": "Home",
+    "orders": "Orders",
+    "whatsapp": "WhatsApp",
+    "packages": "Packages",
+    "refer_earn": "Refer & Earn"
+  },
+  "drawer": {
+    "login_required": "Login Required",
+    "version": "Version",
+    "home": "Home",
+    "promotions": "Promotions & Offers",
+    "request_pickup": "Request Pickup",
+    "my_requests": "My Requests",
+    "my_orders": "My Orders",
+    "pay_now": "Pay Now",
+    "price-list": "Price List",
+    "refer_and_earn": "Refer & Earn",
+    "contact_us": "Contact Us",
+    "settings": "Settings",
+    "packages": "Packages",
+    "amount_due": "Amount Due",
+    "price_list": "Price List",
+    "log_in": "Log In",
+    "log_out": "Log Out"
+  },
+  "referral_tabs": {
+    "you_get": "You get",
+    "friend_get": "Your friend get"
+  },
+  "packages": {
+    "no_active_packages": "No Active Packages",
+    "no_available_packages": "No Available Packages",
+    "price": "Price:",
+    "active": "Active",
+    "available": "Available",
+    "expire_on": "Expire on:",
+    "unlimited": "Unlimited",
+    "validity_days": "days",
+    "validity_months": "months",
+    "validity_year": "year",
+    "payment_disabled": "Payment Disabled",
+    "buy_now": "Buy Now",
+    "subscribe_now": "Subscribe Now",
+    "contact_us": "Contact Us",
+    "validity": "Validity:",
+    "balance_available": "Balance Available: ",
+    "expiring_on": "Expiring on: ",
+    "package_not_found": "Package Not Found"
+  },
+  "checkout": {
+    "your_cart": "Your cart:",
+    "add_special_instructions_for_services": "Add Special Instructions for services",
+    "your_order_total_must_be": "Your order total must be at least ",
+    "keep_ready": "Please keep your items ready!",
+    "expert_coming": "Our Laundry / Dryclean expert will be on his way soon!",
+    "payment_failed": "Payment Failed, You've to pay at the time of pickup.",
+    "payment_gateway_not_found": "Payment Gateway Not Found.",
+    "try_again_later": "Try Again Later",
+    "services": "Services",
+    "order_created": "Order Created",
+    "chagne_pickup_date_time": "Change the pickup date and time",
+    "payment_disabled": "Payment Disabled",
+    "payment_successful": "Payment Successful",
+    "pickup_delivery_details": "Pickup & Delivery Details",
+    "enter_coupon_code": "Enter Coupon Code",
+    "apply_coupon": "Apply Coupon",
+    "go_back_to_home": "Go Back To Home",
+    "transition_aborted": "Transaction aborted by user",
+    "minimum_order_amount_required_title": "Minimum Order Amount Required",
+    "order_total_must_be": "Your order total must be at least ",
+    "to_proceed_add_more_items": " to proceed. Please add more items to your cart."
+  },
+  "payment": {
+    "amount_due": "Amount Due:",
+    "discount": "Discount:",
+    "remove_coupon": "Remove Coupon",
+    "apply_coupon": "Apply Coupon",
+    "final_amount_due": "Final Amount Due:",
+    "payment_disabled": "Payment Disabled",
+    "pay_now": "Pay Now",
+    "payment_successful": "Payment Successful",
+    "your_payment_of": "Your payment of",
+    "is_successful": "is successful.",
+    "transition_id": "Transaction ID:",
+    "date": "Date:"
+  },
+  "refs": {
+    "redeem_now": "Redeem Now",
+    "invite_friends": "Invite friends",
+    "click_here_to": "Click here to",
+    "copy": "Copy",
+    "read": "read",
+    "FAQs": "FAQs"
+  },
+  "static_messages": {
+    "select_services": "Select services",
+    "package_not_found": "Package not found",
+    "enter_otp": "Please enter OTP",
+    "otp_not_match": "OTP not match",
+    "otp_sent_successfully": "OTP sent successfully",
+    "mobile_number_not_found": "Mobile number not found",
+    "authorization_failed": "Authorization Failed",
+    "enter_house_flat_block": "Please enter a House / Flat / Block / Building",
+    "select_reason": "Please select a reason.",
+    "request_cancelled_successfully": "Request cancelled successfully.",
+    "error_create_referral": "Error in create new referral",
+    "error_getting_referral_policies": "Error in getting Referral policies.",
+    "payment_successful": "Payment successful",
+    "payment_gateway_error": "Payment gateway error",
+    "order_creation_failed": "Order creation failed.",
+    "order_created": "Order Created",
+    "error_occurred_scheduling": "An error occurred while scheduling the pickup.",
+    "app_config_error": "App config Error",
+    "upi_payment_cancelled_or_delay": "You may have cancelled the payment or there was a delay in response from the UPI app"
+  }
+}

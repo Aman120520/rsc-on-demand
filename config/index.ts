@@ -1,0 +1,41 @@
+const config = {
+  appName: "QDC On Demand",
+  appVariant: 2,
+
+  // OrganizationId: 1,
+  // slug: "SubscriptionManagement",
+
+  slug: "QDCDemo",
+  OrganizationId: 4478,
+  currency: "AED",
+  defaultCountry: "UAE",
+  apiBase: "https://api.quickdrycleaning.com/QDCAPI3/",
+  whatsappNumber: "971545013232",
+  theme: {
+    primaryColor: "#082a59",
+    primaryTextColor: "#000000",
+    buttonColor: "#f2192a",
+    buttonFontWeight: "normal",
+    buttonTextTransform: "capitalize",
+    buttonTextColor: "#ffffff",
+    iconColor: "#082a59",
+    notificationBadgeColor: "#e74c3c",
+    readyStatusColor: "#2ecc71",
+    pendingStatusColor: "#e67e22",
+  },
+  invertTheme: true,
+  disablePayment: false,
+  splashIconSize: 200,
+  splashScreenDelay: 1500,
+  showCopyright: true,
+  expressDeliveryMessage: "",
+  imageSplashScreen: true,
+  showLogoOnSplashScreen: false,
+  showToolbarLogo: true,
+  enableFacebookLogin: false,
+  packageName: "com.quickdrycleaning.radiant",
+  iosPackageName: "com.quickdrycleaning.radiant",
+  callBtnName: "Call",
+};
+
+export default config;

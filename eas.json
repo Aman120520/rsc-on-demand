@@ -1,0 +1,51 @@
+{
+  "cli": {
+    "version": ">= 7.8.2",
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "autoIncrement": true,
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "autoIncrement": true,
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "image": "latest",
+        "simulator": true
+      },
+      "channel": "preview"
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_CONFIG_API_URL": "$EXPO_PUBLIC_CONFIG_API_URL",
+        "EXPO_PUBLIC_COUPONS_API_URL": "$EXPO_PUBLIC_COUPONS_API_URL",
+        "EXPO_PUBLIC_REFERRAL_API_URL": "$EXPO_PUBLIC_REFERRAL_API_URL",
+        "EXPO_PUBLIC_STRIPE_API_URL": "$EXPO_PUBLIC_STRIPE_API_URL",
+        "GOOGLE_SERVICE_INFO": "$GOOGLE_SERVICE_INFO",
+        "GOOGLE_SERVICES_JSON": "$GOOGLE_SERVICES_JSON"
+      },
+      "prebuildCommand": "node scripts/writeGoogleServiceFile.js && node scripts/writeGoogleServicesJson.js"
+    },
+    "test": {
+      "autoIncrement": true,
+      "channel": "test"
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "1481554539"
+      }
+    }
+  }
+}
